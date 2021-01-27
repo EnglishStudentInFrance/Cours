@@ -1,0 +1,115 @@
+﻿/*Mise en page du header*/
+header                                  {
+                    background-color: grey;
+                    color: white;
+                    padding: 15px;
+                    text-align : center;
+                    width : 100%;
+                                        }
+
+
+/*Mise en page du bandeau menu de navigation entre pages du site*/
+#menu                                   {
+                    overflow: hidden;
+                    background-color: #333;
+                    width : 100%;
+                    padding : 3px;
+                                        }
+
+#menu :hover                            {
+                    background-color: #ddd;
+                    color: black;
+                                        }
+
+#menu a                                 {
+                    float: left;
+                    display: block;
+                    color: #f2f2f2;
+                    text-align: center;
+                    padding: 14px 16px;
+                    text-decoration: none;
+                                        }
+
+
+/*Mise en page du formulaire*/
+#formulaire                             {
+                    text-align : center;
+                                        }
+
+
+/*Mise en page du sommaire*/
+#sommaire, #sommaire th, #sommaire td   {
+                    border: 3px solid black;
+                    border-collapse: collapse;
+                    padding: 15px;
+                    width : 600px;
+                    margin : auto;
+                    margin-bottom : 25px;
+                    background-color : white;
+                                        }
+
+
+/*Mise en pages des titres des différents parties*/
+#titre                                  {
+                    text-align : center;
+                    display : block;
+                    background-color : #ccff99;
+                    padding : 10px;
+                                        }
+
+h1,h2,h3                                {
+                    text-align : center;
+                                        }
+
+h2                                      {
+                    background-color : #99e6ff;
+                    display : block;
+                    padding : 3px;
+                                        }
+
+h4                                      {
+                    margin : 25px;
+                                        }
+
+
+/* Toute la partie texte de l'article a une marge de minimum 25 pixels*/
+section                                {
+                    margin : 50px;
+                                        }
+
+
+/*Centrer les images*/
+img                                     {
+                    width : 50%;
+                    display : block;
+                    margin : auto;
+                                        }
+
+/*Mise en page du pied de la page*/
+footer                                  {
+                    text-align: center;
+                    padding: 3px;
+                    background-color: #ccff99;
+                    color: black;
+                                        }
+
+
+/*Passages importants surlignés*/
+#procede                                {
+                    background-color:#99e6ff;
+                    color: black;
+                                        }
+
+
+/*Couleurs des liens*/
+a:link                                  {
+                    color : #6666ff;
+                                        }
+
+a:visited                               {
+                    color : #6666ff;
+                                        }
+
+a:hover                                 {
+                    color:#e699ff
+                                        }

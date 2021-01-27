@@ -1,0 +1,26 @@
+﻿section                      {
+                    margin-top : 25px;
+                            }
+
+
+/*Mise en page de la partie introduction*/
+#intro                      {
+                    text-align : center;
+                    margin : 25px;
+                            }
+
+
+/*Mise en page du tableau de vidéos*/
+table, th, td              {
+                    border-collapse: collapse;
+                    width: 100%;
+                    padding: 8px;
+                    margin : auto;
+                            }
+
+th                          {
+                    font-size : 40px;
+                    background-color : #ccff99;
+                            }
+
+

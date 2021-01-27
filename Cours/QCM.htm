@@ -1,0 +1,183 @@
+﻿<!-- Created: 06/01/2021 by Charlotte Lewis -->
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional/EN">
+<html>
+  <head>
+    <title>Fiche de révisions - Bac de Français : QCM</title>
+    <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1">
+    <meta name="generator" content="PyScripter">
+
+    <!---------------------------Pages de CSS---------------------------------------->
+    <link rel="stylesheet" href="../CSS/style.css">
+
+
+    <!-------------------------Block de Javascript ------------------------------------->
+    <script>
+        function afficherCorrection()
+            {
+                    //Compteur qui est incrémenté de 1 à chaque réponse juste
+                var score=0
+
+                        //Question 1
+                if (document.getElementById("r1.2").checked)        {
+                                document.getElementById("correction1").innerHTML = "Réponse correcte";
+                                document.getElementById("correction1").style.color = "#b3ff66";
+                                score=score+1;
+                                                                    }
+                else                                                {
+                                document.getElementById("correction1").innerHTML = "Réponse incorrecte";
+                                document.getElementById("correction1").style.color = "#ff6666";
+                                                                    }
+
+                    //Question 2
+                if (document.getElementById("r2.1").checked)        {
+                                document.getElementById("correction2").innerHTML = "Réponse correcte";
+                                document.getElementById("correction2").style.color = "#b3ff66";
+                                score=score+1;
+                                                                    }
+                else                                                {
+                                document.getElementById("correction2").innerHTML = "Réponse incorrecte";
+                                document.getElementById("correction2").style.color = "#ff6666";
+                                                                    }
+
+                    //Question 3
+                if (document.getElementById("r3.3").checked)        {
+                                document.getElementById("correction3").innerHTML = "Réponse correcte";
+                                document.getElementById("correction3").style.color = "#b3ff66";
+                                score=score+1;
+                                                                    }
+                else                                                {
+                                document.getElementById("correction3").innerHTML = "Réponse incorrecte";
+                                document.getElementById("correction3").style.color = "#ff6666";
+                                                                    }
+
+                    //Question 4
+                if (document.getElementById("r4.1").checked)        {
+                                document.getElementById("correction4").innerHTML = "Réponse correcte";
+                                document.getElementById("correction4").style.color = "#b3ff66";
+                                score=score+1;
+                                                                    }
+                else                                                {
+                                document.getElementById("correction4").innerHTML = "Réponse incorrecte";
+                                document.getElementById("correction4").style.color = "#ff6666";
+                                                                    }
+
+                    //Question 5
+                if (document.getElementById("r5.2").checked)        {
+                                document.getElementById("correction5").innerHTML = "Réponse correcte";
+                                document.getElementById("correction5").style.color = "#b3ff66";
+                                score=score+1;
+                                                                    }
+                else                                                {
+                                document.getElementById("correction5").innerHTML = "Réponse incorrecte";
+                                document.getElementById("correction5").style.color = "#ff6666";
+                                                                    }
+
+                    //Fenêtre qui s'affiche et qui donne le score totale
+                alert("Vous avez"+" "+score+" "+"réponses de justes");
+            }
+
+            //Fonction qui rafraîchit la page
+        function reload()
+            {
+                            location.reload();
+                            return false;
+
+            }
+    </script>
+  </head>
+  <body>
+<header>
+            <h1>Fiches de révision - Bac de Français</h1>
+</header>
+
+
+<!---------------------------------Menu de navigation entre pages du site---------------------->
+  <nav id="menu">
+<a href="../index.htm" target="_blank">Page d'accueil</a>
+<a href="./SEQ1.htm" target="_blank">Séquence 1</a>
+<a href="./SEQ2.htm" target="_blank">Séquence 2 - Les <i>Essais</i>, de Montaigne</a>
+<a href="./QCM.htm" target="_blank">QCM</a>
+  </nav>
+
+    <section>
+
+<!---------------------------------------QCM---------------------------------------->
+    <form>
+        <p><b>Question 1 : Un pastiche désigne :</b><br/>
+            <input type="radio" name="q1" id="r1.1">
+                <label for="r1.1">Une image caricaturale</label><br/>
+            <input type="radio" name="q1" id="r1.2">
+                <label for="r1.2">Une imitation du style d'un auteur ou artiste qui ne vise pas le plagiat</label><br/>
+            <input type="radio" name="q1" id="r1.3">
+                <label for="r1.3">Un poème satyrique</label><br/>
+            <input type="radio" name="q1" id="r1.4">
+                <label for="r1.4">Une boisson alcoolisée</label><br/>
+        </p>
+        <div>
+        <p id="correction1"></p>
+        </div>
+
+        <p><b>Question 2 : Quelle mouvement littéraire se développe au XVIe siècle?</b><br/>
+            <input type="radio" name="q2" id="r2.1">
+                <label for="r2.1">L'Humanisme</label><br/>
+            <input type="radio" name="q2" id="r2.2">
+                <label for="r2.2">Le baroque</label><br/>
+            <input type="radio" name="q2" id="r2.3">
+                <label for="r2.3">Le classicisme</label><br/>
+            <input type="radio" name="q2" id="r2.4">
+                <label for="r2.4">Les Lumières</label><br/>
+        </p>
+        <p id="correction2"></p>
+
+
+        <p><b>Question 3 : Avec quelle personnage des <i>Liaisons Dangereuses</i> de Laclos peut-on-associer la Princesse de Clèves?</b><br/>
+            <input type="radio" name="q3" id="r3.1">
+                <label for="r3.1">La Marquise de Merteuil</label><br/>
+            <input type="radio" name="q3" id="r3.2">
+                <label for="r3.2">Cécile de Volanges</label><br/>
+            <input type="radio" name="q3" id="r3.3">
+                <label for="r3.3">La Présidente de Tourvel</label><br/>
+        </p>
+        <p id="correction3"></p>
+
+        <p><b>Question 4 : Quelle définition correspond le plus à la notion de libertinage au XVIe siècle?</b><br/>
+            <input type="radio" name="q4" id="r4.1">
+                <label for="r4.1">Le mot libertin désigne une personne athée ou sceptique.</label><br/>
+            <input type="radio" name="q4" id="r4.2">
+                <label for="r4.2">Le mot libertin désigne une personne ayant des moeurs très libre au point de vue de la vie sexuelle.</label><br/>
+            <input type="radio" name="q4" id="r4.3">
+                <label for="r4.3">Un libertin est un esclave affranchi.</label><br/>
+        </p>
+        <p id="correction4"></p>
+
+        <p><b>Question 5 : Que désigne "Des coches" dans les <i>Essais</i> de Montaigne?</b><br/>
+            <input type="radio" name="q5" id="r5.1">
+                <label for="r5.1">Les carrosses</label><br/>
+            <input type="radio" name="q5" id="r5.2">
+                <label for="r5.2">Les moyens de transport</label><br/>
+            <input type="radio" name="q5" id="r5.3">
+                <label for="r5.3">Les navires</label><br/>
+        </p>
+        <p id="correction5"></p>
+
+        <input type="button" value="Valider" onclick="afficherCorrection()">
+        <button onclick="reload()">Réinitialiser</button>
+    </form>
+
+    </section>
+
+
+<!-------------------------------------Pied de page------------------------------------>
+    <footer>
+    <h4>Liens vers d'autres sites méthode</h4>
+        <p>
+        <a href="https://commentairecompose.fr/" target="_blank">https://commentairecompose.fr/</a><br/>
+        <a href="https://www.letudiant.fr/bac/date-du-bac.html#:~:text=Jeudi%2017%20juin%202021%20%3A%20date%20de%20l'%C3%A9preuve
+        %20%C3%A9crite%20du,5%20pour%20tous%20les%20candidats.&text=Du%2021%20juin%20au%202%20juillet%202021%20%3A%20dates,oraux%20du%
+        20bac%20de%20fran%C3%A7ais." target="_blank">https://www.letudiant.fr/</a></p>
+        <p>
+        Lewis Charlotte - 02/01/2021</p>
+
+    </footer>
+  </body>
+</html>
